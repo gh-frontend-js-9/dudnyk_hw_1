@@ -1,240 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <title>Document</title>
 </head>
 <style>
-	h4{
-		margin: 0px;
-	}
-	fieldset{
-		margin-bottom: 15px;
-	}
-	.some_input{
-		width: 220px;
-	}
-	ol{
-		margin:10px 0;
-		padding: 0;	 	
-		list-style-type: none;
-	}
+  h4{
+    margin: 0px;
+  }
+  fieldset{
+    margin-bottom: 15px;
+  }
+  .some_input{
+    width: 220px;
+  }
+  ol{
+    margin:10px 0;
+    padding: 0;   
+    list-style-type: none;
+  }
 </style>
 <body>
-	<h1>Урок "Формы": теги и их атрибуты</h1>
-	<h2>Расскажите немного о себе...</h2>
-	<form action ="#" method="get" name="form">
-		<fieldset>
-			<legend><strong>Коротко о себе</strong></legend><br>
-			
-			<label>Имя: 
-				<input type="text" name="first_name" class="some_input">
-			</label><br><br>
-			
-			<label>Фамилия: 
-				<input type="text" name="last_name" class="some_input">
-			</label><br><br>
-			
-			<span>Пол:</span>
-	<!--   what you think about lists here?-->
-	<!--   I think list will be more appropriate in situations where i have too many <br> tags-->
-			<label> 
-				<input type="radio" name="gender" value="man" checked>мужской
-			</label>
+  <h1>Урок "Формы": теги и их атрибуты</h1>
+  <h2>Расскажите немного о себе...</h2>
+  <form action ="#" method="get" name="form">
+    <fieldset>
+      <legend><strong>Коротко о себе</strong></legend><br>
+      
+      <label>Имя: 
+        <input type="text" name="first_name" class="some_input">
+      </label><br><br>
+      
+      <label>Фамилия: 
+        <input type="text" name="last_name" class="some_input">
+      </label><br><br>
+      
+      <span>Пол:</span>
+  <!--  what you think about lists here?-->
+  <!--  I think list will be more appropriate in situations where i have too many <br> tags-->
+      <label> 
+        <input type="radio" name="gender" value="man" checked>мужской
+      </label>
 
-			<label>	
-				<input type="radio" name="gender" value="woman">женский<br>
-			</label><br>	
+      <label> 
+        <input type="radio" name="gender" value="woman">женский<br>
+      </label><br>  
 
-			<label>Возраст: 
-				<input type="number" name="age" style="width: 50px"> лет
-			</label><br><br>
-		</fieldset>
+      <label>Возраст: 
+        <input type="number" name="age" style="width: 50px"> лет
+      </label><br><br>
+    </fieldset>
 
-		<fieldset>
-			<legend><strong>Подробнее о себе</strong></legend>
-			
-			<label>
-				<input type="radio" name="sex" value="young_man" checked>Молодой человек<br>
-			</label>
+    <fieldset>
+      <legend><strong>Подробнее о себе</strong></legend>
+      
+      <label>
+        <input type="radio" name="sex" value="young_man" checked>Молодой человек<br>
+      </label>
 
-			<label>
-				<input type="radio" name="sex" value="young_woman">Девушка<br>
-			</label>
+      <label>
+        <input type="radio" name="sex" value="young_woman">Девушка<br>
+      </label>
 
-			<ol>
-				<li>
-					<label>
-						<input type="text" name="birth_date"> Дата рождения
-					</label>	
-				</li>
+      <ol>
+        <li>
+          <label>
+            <input type="text" name="birth_date"> Дата рождения
+          </label>  
+        </li>
 
-				<li>
-					<label>
-						<input type="text" name="marital_status"> Семейное положение
-					</label>	
-				</li>
+        <li>
+          <label>
+            <input type="text" name="marital_status"> Семейное положение
+          </label>  
+        </li>
 
-				<li>
-					<label>
-						<input type="text" name="social_status"> Социальный статус
-					</label>
-				</li>
+        <li>
+          <label>
+            <input type="text" name="social_status"> Социальный статус
+          </label>
+        </li>
 
-				<li>	
-					<label>
-						<input type="address" name="location"> Местожительство
-					</label>
-				</li>
+        <li>  
+          <label>
+            <input type="address" name="location"> Местожительство
+          </label>
+        </li>
 
-			</ol>
+      </ol>
 
-			<section>
-				<h3>Что вы обычно делаете на выходных</h3>
+      <section>
+        <h3>Что вы обычно делаете на выходных</h3>
 
-				<ol>
-					<li>
-						<label>
-							<input type="checkbox" name="free_time" value="sleep"> Сплю
-						</label>
-					</li>
+        <ol>
+          <li>
+            <label>
+              <input type="checkbox" name="free_time" value="sleep"> Сплю
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="checkbox" name="free_time" value="hang_out_with_friends"> Гуляю с друзьями
-						</label>
-					</li>
+          <li>
+            <label>
+              <input type="checkbox" name="free_time" value="hang_out_with_friends"> Гуляю с друзьями
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="checkbox" name="free_time" value="fish"> Хожу на рыбалку
-						</label>
-					</li>
+          <li>
+            <label>
+              <input type="checkbox" name="free_time" value="fish"> Хожу на рыбалку
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="checkbox" name="free_time" value="play_games"> Играю в игры
-						</label>
-					</li>
-				</ol>
-			</section>	
-			
-			<section>
-				<h3>Рассказать о формах в книге, посвященной HTML</h3>
+          <li>
+            <label>
+              <input type="checkbox" name="free_time" value="play_games"> Играю в игры
+            </label>
+          </li>
+        </ol>
+      </section> 
+      
+      <section>
+        <h3>Рассказать о формах в книге, посвященной HTML</h3>
 
-				<select>
-					<option value="one">Site frequency</option>
-					<option value="two">Option2</option>
-					<option value="three">Option3</option>
-					<option value="four">Option4</option>
-				</select>
-			</section>
+        <select>
+          <option value="one">Site frequency</option>
+          <option value="two">Option2</option>
+          <option value="three">Option3</option>
+          <option value="four">Option4</option>
+        </select>
+      </section>
 
-			<section>
-				<h3>Сколько книг вы прочитали за свою жизнь:</h3>
+      <section>
+        <h3>Сколько книг вы прочитали за свою жизнь:</h3>
 
-				<ol>
-					
-					<li>
-						<label>
-							<input type="radio" name="books" value="0-10"> 0-10
-						</label>
-					</li>
+        <ol>
+          
+          <li>
+            <label>
+              <input type="radio" name="books" value="0-10"> 0-10
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="radio" name="books" value="11-20"> 11-20
-						</label>
-					</li>
-					
-					<li>
-						<label>
-							<input type="radio" name="books" value="21-50"> 21-50
-						</label>
-					</li>
-					
-					<li>
-						<label>
-							<input type="radio" name="books" value="50+"> 50+
-						</label>
-					</li>
+          <li>
+            <label>
+              <input type="radio" name="books" value="11-20"> 11-20
+            </label>
+          </li>
+          
+          <li>
+            <label>
+              <input type="radio" name="books" value="21-50"> 21-50
+            </label>
+          </li>
+          
+          <li>
+            <label>
+              <input type="radio" name="books" value="50+"> 50+
+            </label>
+          </li>
 
-				</ol>
-			</section>
+        </ol>
+      </section>
 
-			<section>
+      <section>
 
-				<h3>Ваши комментарии:</h3>
-				<textarea name="comment" rows="12" cols="60"></textarea><br><br>
-				
-			</section>
+        <h3>Ваши комментарии:</h3>
+        <textarea name="comment" rows="12" cols="60"></textarea><br><br>
+        
+      </section>
 
-			<select size="3" name="position">
-				<option id="first_pos" value="pos1">Первая позиция</option>
-				<option id="second_pos" value="pos2" selected>Вторая позиция</option>
-				<option id="third_pos" value="pos3">Третья позиция</option>
-			</select><br><br>
-		
-		</fieldset>
-		
-		<fieldset>
-			<legend><strong>И в заключение</strong></legend>
-			<input type="text" name="text" value="это поле было введено до вас" class="some_input"><br><br>
-			
-			<label><strong>Email</strong><br>
-				<input type="email" name="email" class="some_input">
-			</label><br><br>
+      <select size="3" name="position">
+        <option id="first_pos" value="pos1">Первая позиция</option>
+        <option id="second_pos" value="pos2" selected>Вторая позиция</option>
+        <option id="third_pos" value="pos3">Третья позиция</option>
+      </select><br><br>
+    
+    </fieldset>
+    
+    <fieldset>
+      <legend><strong>И в заключение</strong></legend>
+      <input type="text" name="text" value="это поле было введено до вас" class="some_input"><br><br>
+      
+      <label><strong>Email</strong><br>
+        <input type="email" name="email" class="some_input">
+      </label><br><br>
 
-			<section>
-				<span><strong>Хотите подписаться на самую модную расcылку спама?</strong><br><i>Выберите категории</i></span>
+      <section>
+        <span><strong>Хотите подписаться на самую модную расcылку спама?</strong><br><i>Выберите категории</i></span>
 
-				<ol>
-					<li>
-						<label>
-							<input type="checkbox" name="categories" value="equipment"> Оборудование
-						</label>
-					</li>
-					
-					<li>
-						<label>
-							<input type="checkbox" name="categories" value="cook"> Как приготовить обеды
-						</label>
-					<li>
+        <ol>
+          <li>
+            <label>
+              <input type="checkbox" name="categories" value="equipment"> Оборудование
+            </label>
+          </li>
+          
+          <li>
+            <label>
+              <input type="checkbox" name="categories" value="cook"> Как приготовить обеды
+            </label>
+          <li>
 
-					<li>
-						<label>
-							<input type="checkbox" name="categories" value="million"> Заработай миллион за два дня!
-						</label>
-					</li>
-					
-				</ol>
-			</section>
-			
-			<section>
-				<span><strong>На сколько сложная задача:</strong></span>
-				<ol>
-					<li>
-						<label>
-							<input type="radio" name="evaluate_task" value="not_at_all" checked>Совсем нет
-						</label>
-					</li>
+          <li>
+            <label>
+              <input type="checkbox" name="categories" value="million"> Заработай миллион за два дня!
+            </label>
+          </li>
+          
+        </ol>
+      </section>
+      
+      <section>
+        <span><strong>На сколько сложная задача:</strong></span>
+        <ol>
+          <li>
+            <label>
+              <input type="radio" name="evaluate_task" value="not_at_all" checked>Совсем нет
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="radio" name="evaluate_task" value="so-so">Так себе
-						</label>
-					</li>
+          <li>
+            <label>
+              <input type="radio" name="evaluate_task" value="so-so">Так себе
+            </label>
+          </li>
 
-					<li>
-						<label>
-							<input type="radio" name="difficult">Еле справились
-						</label>
-					</li>
-				</ol>
-			</section>
-			
-		</fieldset>
-		<button type="submit">Отправить</button>
-	</form>
+          <li>
+            <label>
+              <input type="radio" name="difficult">Еле справились
+            </label>
+          </li>
+        </ol>
+      </section>
+      
+    </fieldset>
+    <button type="submit">Отправить</button>
+  </form>
 </body>
 </html>
